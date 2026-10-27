@@ -1,0 +1,104 @@
+<!-- 
+Template for IMA's Creative Coding Lab 
+
+Project A: Generative Creatures
+CCLaboratories Biodiversity Atlas 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VerY CraZy EyE</title>
+
+    <!-- allow special characters, including Arabic, Chinese, Korean, Japanese, etc. -->
+    <meta charset="UTF-8">
+    <!-- link the style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- import p5.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
+    <script>
+        // prevent scrolling when spacebar and arrow keys are pressed.
+        window.addEventListener("keydown", function (e) { if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) { e.preventDefault(); } }, false);
+    </script>
+</head>
+
+<body>
+    <!-- title -->
+    <div id="title-wrapper">
+        <h1 class="headline black">VerY CraZy EyE</h1>
+    </div>
+
+    <!-- main content -->
+    <div id="main-wrapper">
+        <main>
+            <!-- This is where your p5 sketch will be appended and appear! -->
+        </main>
+        <div class="two-columns">
+            <div class="left">
+                <h3 class="red">Scientific Name:</h3>
+                <p>Eye de neurvosusbobus </p>
+
+                <h3 class="red">Discovered by / at:</h3>
+                <p>Atai Alybaev, discovered this creature when preparing for Chinese Written Tests</p>
+
+                <h3 class="green">Family:</h3>
+                <p>Belongs to the family of people who postpone their preparation and then study at late nights</p>
+            </div>
+            <div class="right">
+                <h3 class="green">Habitat:</h3>
+                <p>Very stressed dudes</p>
+
+                <h3 class="green">Appearance:</h3>
+                <p>It looks like a common eye, but it is actuallu not a common eye. It starts to shake after some time and .............Zzz Sorry I fell asleep while writing this</p>
+
+                <h3 class="green">Key Characteristics:</h3>
+                <ul>
+                    <li>Shakes if didnt blink for several seconds</li>
+                    <li>Eats my nerves</li>
+                    <li>When it blinks, it sees some schizophrenic patterns</li>
+                    <li>It has magnifique eye lashes</li>
+                </ul>
+            </div>
+        </div>
+        <div class="one-column">
+            <p>
+                <span class="yellow">What we know so far about VerY CraZy EyE?</span>
+                Eye de neurvosusbobus was first spotted at 2:47 AM, somewhere between
+        "I will start studying tomorrow" and "I have a Chinese written test in six hours."
+        Scientists (one tired student) believe the creature evolved from a regular eye
+        that was forced to stare at hanzi for too long. Over time it developed a unique
+        survival strategy: if nobody blinks for a few seconds, it starts shaking,
+        as if it has just remembered every deadline at once.
+        According to ancient legends (a group chat from last Tuesday), the eye feeds on
+        nerves, caffeine and the phrase "it's fine, I'll do it later." It has never been
+        seen in a well-rested person. Researchers are still trying to find out whether the eye is
+        watching us, or whether we are just very, very tired.
+                <br>
+                <span class="yellow">Guidelines for human interaction with this creature</span> Move your mouse and the eye will follow it, because it has nothing better to do.
+        Click to make the pupil shrink or grow back, like a student's confidence before
+        and after a test. Press H to reveal the creature's natural habitat: a field of
+        mysterious circles. Hold SPACE to let the eye blink. Be careful: the longer it
+        stays closed, the more strange colorful balls it sees. Scientists call this
+        "a normal state of mind before an exam." When you release SPACE, the eye
+        wakes up and forgets everything, which is honestly a goal for all of us.
+        Do NOT keep it open for too long. It will start shaking, and you will feel guilty.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="black">
+        <p>A CCLab project made by Atai Alybaev in the 1st Semester</p>
+    </div>
+
+    <!-- Home: Link back to the ATLAS page-->
+    <div id="home">
+        <a href="https://cclab.work/atlas">Back to the ATLAS</a>
+    </div>
+
+    <!-- Include your sketch.js file here -->
+    <script src="sketch.js" type="text/javascript"> </script>
+</body>
+
+</html>
